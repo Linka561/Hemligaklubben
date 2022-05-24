@@ -1,0 +1,40 @@
+html {
+    background-image: url("bilder/Helkanin-webb.svg");
+    background-size: cover;
+    background-color: #1D1D1D;
+    
+}
+body{
+    min-height: 150vh;
+    position: relative;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+.introduktionslåda{
+    text-align: center;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 0px;
+    margin-top: 50px;
+    
+}
+.hemligaklubbenintro{
+    color: white;
+    display: inline;
+    font-family: marvin, sans-serif;
+    letter-spacing: 5px;
+}
+h1{
+margin-bottom: 10px;
+    color: white;
+    display: block;
+    font-family: marvin, sans-serif;
+    letter-spacing: 15px;
+    font-size:65px
+}

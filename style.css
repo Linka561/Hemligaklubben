@@ -1,0 +1,537 @@
+html {
+    background-color: #1D1D1D;
+    background-repeat: no-repeat;
+   
+    background-position: top;
+}
+
+body {
+    margin: 0px;
+    width: auto;
+    bottom: 0;
+    position: relative;
+    min-height: 220vh;
+}
+
+header {
+    background-color: #262626;
+    height: auto;
+    display: grid;
+    font-family: marvin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+   
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px;
+    color: #ffffff;
+    border-bottom: 4px solid transparent;
+    transition: all ease-in-out 0.5s;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px;
+    display: inline-block;
+
+
+}
+
+ul li a:hover {
+    text-decoration: none;
+    border-color: white;
+
+
+}
+
+h1 {
+    color: white;
+
+    font-family: marvin, sans-serif;
+    font-size: 60px;
+}
+
+.signup {
+    text-align: center;
+    font-size: 25px;
+}
+
+.datumet {
+    text-align: center;
+}
+
+.Album {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+
+#demo {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    text-decoration: none;
+    font-family: marvin, sans-serif;
+    font-weight: 700;
+
+}
+
+.ombox {
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+
+
+}
+
+.Moodbox {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 200px;
+
+}
+
+.moodbox {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    letter-spacing: 15px;
+
+    margin: 0 auto;
+
+}
+
+.viär {
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+.textcontainer1 {
+    display: inline-block;
+    float: right;
+    width: 400px;
+    margin-top: 150px;
+    margin-right: 40px;
+}
+
+.textcontainer2 {
+    display: inline-block;
+    float: left;
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 40px;
+
+}
+
+div .svar1 {
+    margin-top: auto;
+    width: 400px;
+    padding: 25px;
+    margin-right: 45px;
+    padding-top: 0%;
+    display: inline;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    text-decoration: none;
+    line-height: 28px;
+    white-space: pre-line;
+
+}
+
+div .svar2 {
+    margin-top: auto;
+    width: 400px;
+    padding: 25px;
+    padding-top: 0%;
+    display: inline;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    text-decoration: none;
+    line-height: 28px;
+    white-space: pre-line;
+
+}
+
+.fråga1 {
+    color: white;
+    text-align: center;
+    font-family: marvin, sans-serif;
+    font-size: 20px;
+}
+
+.fråga2 {
+    color: white;
+    text-align: center;
+    font-family: marvin, sans-serif;
+    font-size: 20px;
+}
+
+.hemligaförtext {
+    color: white;
+    font-family: marvin, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer {
+    overflow: hidden;
+    background-color: #376DA9;
+    margin-bottom: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.bilen {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    backdrop-filter: blur(15px) saturate(3);
+    margin-top: 30px;
+}
+
+.ansikten {
+    margin-top: 40px;
+    display: inline-block;
+    width: 1200px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Edvin {
+    color: #376DA9;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: marvin, sans-serif;
+}
+
+.Adele {
+    color: red;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: marvin, sans-serif;
+}
+
+.Påsen {
+    color: yellow;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: marvin, sans-serif;
+}
+
+.Mattias {
+    color: green;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: marvin, sans-serif;
+}
+
+.bildblå {
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.bildgrön {
+    display: inline;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+
+}
+
+.bildröd {
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.bildgul {
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.containerblå {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    padding: 20px;
+}
+
+.containergrön {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    padding: 20px;
+}
+
+.containerröd {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    padding: 20px;
+}
+
+.containergul {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    padding: 20px;
+}
+
+.overlayblå {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.overlaygrön {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.overlayröd {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.overlaygul {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.containerblå:hover .overlayblå {
+    opacity: 1;
+}
+
+.containergrön:hover .overlaygrön {
+    opacity: 1;
+}
+
+.containerröd:hover .overlayröd {
+    opacity: 1;
+}
+
+.containergul:hover .overlaygul {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: marvin, sans-serif;
+    transition: 0.5s ease-in;
+}
+
+.containerröd:hover .bildröd {
+    opacity: 0.2;
+}
+
+.containerblå:hover .bildblå {
+    opacity: 0.2;
+}
+
+.containergul:hover .bildgul {
+    opacity: 0.2;
+}
+
+.containergrön:hover .bildgrön {
+    opacity: 0.2;
+}
+
+.M {
+    color: red;
+    font-size: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.O {
+    color: #376DA9;
+    font-size: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+}
+
+.O2 {
+    color: yellow;
+    font-size: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.D {
+    color: green;
+    font-size: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+}
+
+.vittitel {
+    color: white;
+    font-size: 120px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+
+    font-style: normal;
+}
+
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+form {
+    margin: auto;
+    width: 800px;
+    margin-bottom: 100px;
+}
+
+
+button {
+    background-color: #376DA9;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    font-family: marvin, sans-serif;
+    letter-spacing: 2px;
+
+
+
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: 0.5s ease-in-out;
+}
+
+
+.container {
+    width: 600px;
+    padding: 16px;
+    margin: auto;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.formtexten {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formtexten {
+    font-family: 'Open Sans', sans-serif;
+}
